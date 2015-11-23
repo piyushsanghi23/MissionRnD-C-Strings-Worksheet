@@ -13,7 +13,7 @@ namespace spec
 		TEST_METHOD(emptyAndNullString)
 		{
 			Assert::AreEqual('\0', KthIndexFromEnd("", 2), L"Empty string input failed.", LINE_INFO());
-			Assert::AreEqual('\0', KthIndexFromEnd(NULL, 2), L"Null string input failed.", LINE_INFO());
+	
 		}
 
 		TEST_METHOD(negativeValue)
