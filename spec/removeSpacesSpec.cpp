@@ -25,7 +25,7 @@ namespace spec
 			char str[] = "";
 			removeSpaces(str);
 			Assert::IsTrue(compareStrings(str, ""), L"Empty string input failed.", LINE_INFO());
-			Assert::AreEqual('\0', removeSpaces(NULL), L"Null string input failed.", LINE_INFO());
+			
 		}
 
 		TEST_METHOD(noSpacesString)
